@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.width{
+    display: flex;
+    
+}
+
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 60%;
+    
+}
+
+.players img{
+    width: 300px;
+    height: 256px;
+}
+.players{
+    width: 330px;
+    height: 474px;
+    padding: 35px;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+footer{
+    justify-content: center;
+}
+#black-img{
+    
+    width: 450px;
+    height: 250px;
+    
+}
+#grid{
+    display: flex;
+    
+    padding-left: 10px;
+}
+
+#grid img{
+    padding-left: 50px;
+}
